@@ -1,0 +1,143 @@
+html{
+    font-size: 10px;
+    font-family: "Monaco", monospace;
+}
+body {
+    font-family: "Monaco", monospace;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+h1 {
+    font-size: 40px;
+    text-align: left;
+  }
+.imagen1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-image: url(..images/Color.png);
+    background-position: center, top right;
+    background-repeat: no-repeat;
+    background-size: 100%, 2rem;
+}
+.container{
+    position: relative;
+}
+.background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.content{
+    position: relative;
+    z-index: 1;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #ff5da2;
+    text-shadow: 3px 3px 1px black;
+  }
+.contenedor-nav {
+    border-top: .1rem solid #3f3e3e;
+}
+.barra-nav {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px) { 
+    .barra-nav {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+.barra-nav a {
+    font-size: 20px;
+    color: rgb(245, 111, 193); 
+    text-decoration: none; 
+    text-shadow: 1px 1px 1px black;
+  }
+.heading-style1{
+    margin: 0;
+    padding: 20px 0;
+    color: #00bb73;
+    text-shadow: 3px 3px 1px black;
+}
+.heading-style2{
+    margin: 0;
+    padding: 20px 0;
+    color: #e6d925;
+    text-shadow: 3px 3px 1px black;
+}
+.heading-style3{
+    margin: 0;
+    padding: 20px 0;
+    color: #2690b1;
+    text-shadow: 3px 3px 1px black;
+}
+.heading-style4{
+    margin: 0;
+    padding: 20px 0;
+    color: #671199;
+    text-shadow: 3px 3px 1px black;
+}
+.heading-style5{
+    margin: 0;
+    padding: 20px 0;
+    color: #ee711e;
+    text-shadow: 3px 3px 1px black;
+}
+footer {
+    text-shadow: 2px 2px 2px rgb(36, 36, 36);
+    color: rgb(0, 0, 0); 
+  }
+p{
+    text-shadow: 1px 1px 1px rgb(36, 36, 36);
+    color: rgb(0, 0, 0);
+}
+.inicio-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inicio-imagenes img {
+    width: 432px; 
+    height: 288px; 
+    margin: 0 20px; 
+  }
+  @media (min-width: 768px) { 
+    h1 {
+        font-size: 5rem;
+    }
+}
+@media (min-width: 768px) { 
+    h2 {
+        font-size: 4rem;
+    }
+}
+ul{
+    text-shadow: 1px 1px 1px rgb(36, 36, 36);
+    color: #e6d925;
+    font-size: 20px
+}
+h3{
+    font-size: 20px;
+    text-align: left;
+}
+h3{
+    margin: 0;
+    padding: 20px 0;
+    color: #ff2870;
+    text-shadow: 1px 1px 1px black;
+}
+.image-list-item img {
+    width: 25%; 
+    height: auto; 
+  }
